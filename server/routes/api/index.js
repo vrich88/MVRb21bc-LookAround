@@ -1,6 +1,8 @@
-const router = require('express').Router();
-const userRoutes = require('./user-routes');
+// replaced by schema index / typedefs / resolvers
 
-router.use('/users', userRoutes);
+// const router = require('express').Router();
+// const userRoutes = require('./user-routes');
 
-module.exports = router;
+// router.use('/users', userRoutes);
+
+// module.exports = router;
