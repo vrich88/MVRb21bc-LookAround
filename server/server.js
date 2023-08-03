@@ -8,7 +8,7 @@ const db = require('./config/connection');
 const { ApolloServer } = require("apollo-server-express");
 // const routes = require('./routes');  replaced by apollo server
 // require typedefs & resolvers
-const { typeDefs, resolvers } = require('./schemas');
+const { typeDefs, resolvers } = require("./schema");
 // app is express
 const app = express();
 // set up port
